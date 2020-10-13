@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main-menu {
+  background-color: black;
+  /* Syntaxe courte : je définis directement qu'en haut et en bas on aura 8px de marge intérieure, et à gauche et à droite 0px de marge intérieure */
+  padding: 8px 0px;
+}
+
+#main-menu ul {
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+#main-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#search-form input {
+  padding: 5px;
+  font-size: inherit;
+  outline: none;
+}
+
+#search-form button {
+  padding: 8px 12px;
+  font-size: inherit;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #4c8981;
+  color: white;
+  cursor: pointer;
+}
