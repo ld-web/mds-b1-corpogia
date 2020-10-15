@@ -61,3 +61,30 @@ body {
   font-weight: 500;
   font-size: 2em;
 }
+
+.illustrated-content {
+  display: flex;
+}
+
+.illustrated-content.regular {
+  flex-direction: row;
+}
+
+/*
+Je cible les éléments ayant à la fois la classe illustrated-content et reverse
+*/
+.illustrated-content.reverse {
+  flex-direction: row-reverse;
+}
+
+/*
+Je cible les éléments ayant la classe txt-content à l'intérieur d'un élément ayant la classe illustrated-content
+*/
+.illustrated-content .txt-content {
+  width: 50%;
+  padding: 2em;
+}
+
+.illustrated-content img {
+  width: 50%;
+}
