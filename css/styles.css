@@ -1,4 +1,6 @@
+/* Le sélecteur '*' cible tous les éléments de la page */
 * {
+  /* On dit au navigateur de calculer les dimensions d'un élément en incluant le padding et la bordure. Les dimensions ne seront donc plus basées que sur le contenu de l'élément, mais incluront sa marge intérieure et sa bordure */
   box-sizing: border-box;
 }
 
@@ -91,4 +93,48 @@ Je cible les éléments ayant la classe txt-content à l'intérieur d'un éléme
 
 .illustrated-content img {
   width: 50%;
+}
+
+.banner {
+  padding: 3.5em 1em;
+  background-color: orangered;
+  display: flex;
+}
+
+.banner .content,
+.banner .cta {
+  width: 50%;
+}
+
+.banner .content {
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+  padding-left: 1em;
+}
+
+.banner .content p {
+  margin: 0px;
+}
+
+.banner .cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .cta a {
+  text-decoration: none;
+  background-color: white;
+  padding: 1em 4em;
+  font-size: 1.5em;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 100ms ease-in-out;
+}
+
+.banner .cta a:hover {
+  background-color: black;
+  color: white;
 }
