@@ -39,3 +39,25 @@ body {
   color: white;
   cursor: pointer;
 }
+
+#en-tete {
+  background-image: url(../images/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  padding-top: 4em;
+  padding-left: 150px;
+}
+
+#name {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 6em;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+#baseline {
+  font-weight: 500;
+  font-size: 2em;
+}
