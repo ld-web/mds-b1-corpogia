@@ -138,3 +138,26 @@ Je cible les éléments ayant la classe txt-content à l'intérieur d'un éléme
   background-color: black;
   color: white;
 }
+
+#offers {
+  padding-top: 4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.offer-content {
+  max-width: 320px;
+}
+
+.offer-content h3 {
+  font-size: 2em;
+  margin: 1.2rem;
+  text-transform: uppercase;
+}
+
+.offer-content h4 {
+  font-size: 3.5em;
+  margin: 1rem;
+}
