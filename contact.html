@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <nav id="main-menu">
+      <ul>
+        <li>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo" />
+          </a>
+        </li>
+        <li><a href="index.html#presentation">Présentation</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="index.html#offers">Offres</a></li>
+        <li><a href="">Contact</a></li>
+        <li>
+          <form id="search-form">
+            <input type="text" name="q" placeholder="Recherche..." />
+            <button type="submit">Rechercher</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="contact-content">
+      <h1>Contact</h1>
+
+      <video id="contact-video" controls autoplay muted>
+        <source src="videos/small.mp4" type="video/mp4" />
+      </video>
+
+      <iframe title="YT video" width="1000" height="550" src="https://www.youtube.com/embed/Nw-iSuti81E?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <p>
+        <a href="mailto:lucas@ld-web.net">Contactez-nous par email</a>
+      </p>
+
+      <form id="contact-form">
+        <div>
+          <label for="name-input">Nom :</label>
+          <input type="text" id="name-input" />
+        </div>
+        <div>
+          <label for="email-input">Email :</label>
+          <input type="email" id="email-input" />
+        </div>
+        <div>
+          <label for="subject-input">Sujet :</label>
+          <input type="text" id="subject-input" />
+        </div>
+        <div>
+          <label for="message-area">Message :</label>
+          <br />
+          <textarea id="message-area" rows="10" cols="65"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Envoyer" />
+        </div>
+      </form>
+    </div>
+
+    <div id="link-top">
+      <a href="#top">Retour en haut</a>
+    </div>
+  </body>
+</html>

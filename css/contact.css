@@ -1,0 +1,23 @@
+#contact-content {
+  max-width: 1000px;
+  margin: auto; /* Centrer le conteneur */
+}
+
+/* Sélectionne les div qui sont les enfants directs de l'élément d'ID contact-form */
+#contact-form > div {
+  margin-bottom: 1.5em;
+}
+
+/* #name-input, #email-input, #subject-input {
+
+} */
+
+/* Sélecteur sur la valeur d'attribut "type" */
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+  outline: none;
+}
+
+#contact-video {
+  width: 1000px;
+  height: 600px;
+}
